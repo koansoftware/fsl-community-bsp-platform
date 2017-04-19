@@ -13,8 +13,8 @@ Download the BSP source:
 
 [source,console]
 $: PATH=${PATH}:~/bin
-$: mkdir fsl-community-bsp
-$: cd fsl-community-bsp
+$: mkdir ${HOME}/yocto-tdx-morty-repo
+$: cd ${HOME}/yocto-tdx-morty-repo
 $: repo init -u https://github.com/koansoftware/fsl-community-bsp-platform -b morty
 $: repo sync
 
@@ -26,6 +26,4 @@ To start a simple image build:
 $: MACHINE=colibri-imx6 DISTRO=poky source ./setup-environment build
 $: bitbake core-image-minimal
 
-You can use any directory to host your build.
-
-The source code is checked out at `fsl-community-bsp/sources`.
+P.S. You can use any directory to host your build.
