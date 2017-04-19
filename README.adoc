@@ -24,6 +24,16 @@ To start a simple image build:
 
 [source,console]
 $: MACHINE=colibri-imx6 DISTRO=poky source ./setup-environment build
-$: bitbake core-image-minimal
 
 P.S. You can use any directory to host your build.
+
+Add the Toradex layer to bblayers.conf
+
+[source,console]
+  ${BSPDIR}/sources/meta-toradex-nxp \
+
+Launch the build of the final image
+
+[source,console]
+$: bitbake core-image-minimal
+
