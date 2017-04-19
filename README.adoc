@@ -31,6 +31,7 @@ Add the Toradex layer to bblayers.conf
 
 [source,console]
   ${BSPDIR}/sources/meta-toradex-nxp \
+  ${BSPDIR}/sources/meta-toradex-bsp-common \
 
 Launch the build of the final image
 
