@@ -23,5 +23,6 @@
   <project remote="freescale" revision="morty" name="Documentation" path="sources/Documentation"/>
 
   <project remote="tdx" revision="morty" name="meta-toradex-nxp.git" path="sources/meta-toradex-nxp"/>
+  <project remote="tdx" revision="morty" name="meta-toradex-bsp-common.git" path="sources/meta-toradex-bsp-common"/>
 
 </manifest>
