@@ -7,6 +7,7 @@
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="http://git.toradex.com" name="tdx"/>
+  <remote fetch="https://github.com/koansoftware" name="koan"/>
 
   <project remote="yocto" revision="morty" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="morty" name="meta-freescale" path="sources/meta-freescale"/>
@@ -22,7 +23,7 @@
   <project remote="freescale" revision="morty" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="morty" name="Documentation" path="sources/Documentation"/>
 
-  <project remote="tdx" revision="morty" name="meta-toradex-nxp.git" path="sources/meta-toradex-nxp"/>
+  <project remote="koan" revision="morty" name="meta-toradex-nxp.git" path="sources/meta-toradex-nxp"/>
   <project remote="tdx" revision="morty" name="meta-toradex-bsp-common.git" path="sources/meta-toradex-bsp-common"/>
 
 </manifest>
